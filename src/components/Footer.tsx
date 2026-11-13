@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { ACADEMY_TAGLINE } from '../data/academyData';
 import { PolicyModal, type PolicyType } from './PolicyModal';
-import { LamaLogo } from './LamaLogo';
 
 const QUICK_NAV = [
   { label: 'Home', href: '#home' },
@@ -31,10 +30,16 @@ export function Footer() {
           <div className="lg:col-span-4">
             <a
               href="#home"
-              className="group inline-block transition-transform hover:opacity-95"
+              className="inline-block border border-[#F6F2E9]/14 bg-[#191917] p-2 transition-colors hover:border-[#C87549]"
               aria-label="LAMA Back to Top"
             >
-              <LamaLogo variant="horizontal" theme="dark" />
+              <img
+                src="/images/lama-logo.jpg"
+                alt="LAMA – Leadership & Managerial Skills Academy: Learn, Lead, Excel"
+                className="h-20 w-auto max-w-full object-contain"
+                loading="eager"
+                decoding="async"
+              />
             </a>
 
             <p className="mt-5 text-sm leading-relaxed text-[#F6F2E9]/80">
