@@ -207,41 +207,71 @@ export function PedagogySection() {
 
         {/* Academy Training & Workshop Gallery */}
         <div className="mt-14 border-t border-[#20201E]/12 pt-12">
-          {/* Featured Video Showcase */}
+          {/* Featured Video Showcase — Both Videos Side-by-Side */}
           <Reveal>
             <div className="mb-12 border border-[#20201E]/12 bg-[#20201E] p-7 sm:p-10 text-[#F6F2E9]">
-              <div className="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:items-center">
-                <div className="lg:col-span-5">
-                  <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[#C87549]">
-                    Live Learning Environment
-                  </span>
+              <div className="flex flex-col justify-between gap-4 border-b border-[#F6F2E9]/12 pb-6 sm:flex-row sm:items-end">
+                <div>
+                  <div className="flex items-center gap-2.5">
+                    <span className="text-xs font-semibold uppercase tracking-[0.18em] text-[#C87549]">
+                      Live Learning Environment
+                    </span>
+                    <span className="border border-[#F6F2E9]/20 bg-[#F6F2E9]/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-[#F6F2E9]">
+                      2 Live Session Recordings
+                    </span>
+                  </div>
                   <h3 className="mt-2 font-serif text-2xl font-semibold text-[#FFFFFF] sm:text-3xl">
                     See Applied Management Training in Action
                   </h3>
-                  <p className="mt-4 text-sm leading-relaxed text-[#F6F2E9]/85 sm:text-base">
-                    Experience how LAMA combines plenary briefings, structured group problem-solving,
-                    and simulated managerial decision-making into an active, practitioner-led learning
-                    experience.
-                  </p>
-                  <div className="mt-6 flex flex-wrap items-center gap-3">
-                    <span className="border border-[#F6F2E9]/20 bg-[#F6F2E9]/10 px-3 py-1 text-xs font-medium text-[#F6F2E9]">
-                      Cohort Overview &bull; 42s
-                    </span>
-                    <span className="border border-[#C87549]/40 bg-[#C87549]/15 px-3 py-1 text-xs font-medium text-[#C87549]">
-                      Classroom Debrief
-                    </span>
-                  </div>
                 </div>
+                <p className="max-w-md text-xs leading-relaxed text-[#F6F2E9]/75 sm:text-sm">
+                  Watch actual classroom seminar briefings and leadership simulations led by academy
+                  practitioners.
+                </p>
+              </div>
 
-                <div className="lg:col-span-7">
+              {/* Both Videos Side by Side */}
+              <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2">
+                {/* Video 1 */}
+                <div className="flex flex-col">
                   <AcademyVideoPlayer
                     src="/videos/lama-session-overview.mp4"
                     posterSrc="/images/student-workshop.jpg"
-                    title="Cohort Strategic Overview &amp; Briefing"
+                    title="Video 01: Cohort Strategic Overview"
                     subtitle="Instructor-led strategy debrief and cohort execution briefing."
-                    badge="Cohort Briefing"
+                    badge="Video 1 &bull; 42s"
                     aspectClassName="aspect-video"
                   />
+                  <div className="mt-4 border-l-2 border-[#C87549] pl-3.5">
+                    <p className="font-serif text-base font-semibold text-[#FFFFFF]">
+                      Session 01: Cohort Strategic Overview &amp; Briefing
+                    </p>
+                    <p className="mt-1 text-xs leading-relaxed text-[#F6F2E9]/75">
+                      Live instructor briefing setting expectations, problem framing, and strategic
+                      execution standards for incoming engineering and MBA cohorts.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Video 2 */}
+                <div className="flex flex-col">
+                  <AcademyVideoPlayer
+                    src="/videos/lama-leadership-training.mp4"
+                    posterSrc="/images/team-activity.jpg"
+                    title="Video 02: Applied Leadership Seminar"
+                    subtitle="Interactive classroom discussion on cross-functional decision-making."
+                    badge="Video 2 &bull; 69s"
+                    aspectClassName="aspect-video"
+                  />
+                  <div className="mt-4 border-l-2 border-[#78806D] pl-3.5">
+                    <p className="font-serif text-base font-semibold text-[#FFFFFF]">
+                      Session 02: Applied Leadership &amp; Management Seminar
+                    </p>
+                    <p className="mt-1 text-xs leading-relaxed text-[#F6F2E9]/75">
+                      Facilitated discussion engaging participants on operational bottlenecks, team
+                      alignment, and practical management habits.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
