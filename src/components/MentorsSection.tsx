@@ -17,16 +17,12 @@ export function MentorsSection() {
             <Reveal>
               <SectionHeader
                 eyebrow="Mentors &amp; Industry Executive Coaches"
-                title="Learn From Industry Experience."
+                title="Learn From Industry Experts."
                 light
               />
 
               <div className="mt-7 border-l-2 border-[#C87549] pl-5">
-                <p className="font-serif text-xl font-medium leading-snug text-[#FFFFFF] sm:text-2xl">
-                  Meet Our Leadership Mentors &ndash; Mentor profiles will be announced
-                  soon.
-                </p>
-                <p className="mt-3 text-sm leading-relaxed text-[#F6F2E9]/80 sm:text-base">
+                <p className="text-sm leading-relaxed text-[#F6F2E9]/80 sm:text-base">
                   LAMA &ndash; Leadership &amp; Managerial Skills Academy brings
                   practitioner-led perspectives into the classroom across AI-enabled
                   technology operations, strategic P&amp;L execution, and cross-functional
