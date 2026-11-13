@@ -60,40 +60,99 @@ export function PolicyModal({ activePolicy, onClose }: PolicyModalProps) {
         <div className="mt-5 space-y-4 text-sm leading-relaxed text-[#3D3D39]">
           {isPrivacy ? (
             <>
-              <p>
-                LAMA &ndash; Leadership &amp; Managerial Skills Academy respects applicant
-                and student privacy. This website currently validates enquiry inputs
-                locally in your browser and does not transmit personal data to external
-                servers until a verified backend service is connected.
-              </p>
-              <p>
-                All audio or video-based executive communication coaching within the AI
-                Co-Pilot Coaching module is strictly consent-based and governed by
-                participant opt-in policies.
-              </p>
-              <p>
-                Formal data protection disclosures and institutional privacy contact
-                details will be published here prior to live cohort enrolment.
-              </p>
+              <div>
+                <h4 className="font-serif text-base font-semibold text-[#20201E]">
+                  1. Information We Collect
+                </h4>
+                <p className="mt-1.5">
+                  LAMA &ndash; Leadership &amp; Managerial Skills Academy collects information
+                  voluntarily submitted by prospective candidates through our enquiry forms,
+                  including full name, email address, telephone number, current academic
+                  qualification (final-year or graduating B.Tech/B.E. or MBA student), expected
+                  graduation year, programme track interest, and any optional self-assessment notes.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="font-serif text-base font-semibold text-[#20201E]">
+                  2. Why We Collect This Information
+                </h4>
+                <p className="mt-1.5">
+                  We use your details strictly to respond to your programme enquiries, provide
+                  upcoming cohort briefing schedules, verify academic eligibility, and share
+                  official admission announcements once dates and fees are finalised.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="font-serif text-base font-semibold text-[#20201E]">
+                  3. Data Storage &amp; Protection
+                </h4>
+                <p className="mt-1.5">
+                  Candidate information is handled responsibly and reviewed only by authorised
+                  admissions staff. We do not sell, rent, or distribute personal information to
+                  third-party marketers or commercial databases.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="font-serif text-base font-semibold text-[#20201E]">
+                  4. Consent &amp; Your Choices
+                </h4>
+                <p className="mt-1.5">
+                  Submitting an enquiry requires your affirmative consent. You may withdraw consent
+                  or request the deletion of your enquiry details at any time by contacting our
+                  admissions desk. Furthermore, any personalised communication analysis within
+                  planned modules (such as AI Co-Pilot Coaching) is strictly opt-in and consent-governed.
+                </p>
+              </div>
             </>
           ) : (
             <>
-              <p>
-                Content on this website introduces the curriculum domains, experiential
-                pedagogy, and admissions framework of LAMA &ndash; Leadership &amp;
-                Managerial Skills Academy.
-              </p>
-              <p>
-                Any self-assessment output from the Leadership Readiness Assessment is
-                strictly indicative for personal reflection and does not represent an
-                admission offer or selection decision.
-              </p>
-              <p>
-                Programme schedules, tuition fees, cohort dates, and partner rosters
-                marked &ldquo;Coming Soon&rdquo; are subject to official publication by
-                the academy. Participation in the programme develops professional
-                readiness and does not constitute a guarantee of employment.
-              </p>
+              <div>
+                <h4 className="font-serif text-base font-semibold text-[#20201E]">
+                  1. Academic Information Purpose
+                </h4>
+                <p className="mt-1.5">
+                  The material published on this website introduces the educational philosophy,
+                  curriculum domains, and learning pedagogy of LAMA &ndash; Leadership &amp;
+                  Managerial Skills Academy. It is provided for informational and preparatory
+                  guidance.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="font-serif text-base font-semibold text-[#20201E]">
+                  2. Indicative Self-Assessment
+                </h4>
+                <p className="mt-1.5">
+                  The Leadership Readiness Assessment is an indicative self-reflection exercise
+                  intended to help learners evaluate their current managerial confidence. Assessment
+                  scores do not guarantee admission or constitute a formal evaluation.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="font-serif text-base font-semibold text-[#20201E]">
+                  3. Programme Scope &amp; Career Outcomes
+                </h4>
+                <p className="mt-1.5">
+                  LAMA develops applied managerial capabilities, business understanding, and leadership
+                  readiness. The academy does not guarantee job placement, employment offers, salary
+                  increases, or specific corporate roles upon completion.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="font-serif text-base font-semibold text-[#20201E]">
+                  4. Cohort Dates &amp; Fee Details
+                </h4>
+                <p className="mt-1.5">
+                  Admissions criteria, tuition fee structures, batch schedules, and partner details
+                  marked &ldquo;Coming Soon&rdquo; will be officially confirmed and published prior
+                  to live cohort enrolment.
+                </p>
+              </div>
             </>
           )}
         </div>

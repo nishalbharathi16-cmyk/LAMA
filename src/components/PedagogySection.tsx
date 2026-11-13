@@ -13,9 +13,9 @@ export function PedagogySection() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <Reveal>
           <SectionHeader
-            eyebrow="Pedagogy &amp; Learning Experience"
-            title="Learning Beyond the Classroom."
-            description="Every domain pairs structured conceptual framing with facilitated business simulations, practical capstones, and disciplined managerial decision-making."
+            eyebrow="Four Complementary Learning Pillars"
+            title="Practical Learning Beyond the Classroom."
+            description="Our three core learning domains are delivered through four complementary learning pillars designed to develop practical leadership, decision-making, and workplace execution."
           />
         </Reveal>
 
@@ -159,18 +159,24 @@ export function PedagogySection() {
             <article className="flex h-full flex-col justify-between border-t-2 border-[#C87549] bg-[#FFFFFF] p-7 sm:p-8 shadow-[0_1px_0_rgba(32,32,30,0.08)]">
               <div>
                 <div className="flex items-center justify-between">
-                  <span className="text-xs font-semibold uppercase tracking-[0.16em] text-[#78806D]">
-                    Pillar C &bull; Applied Practice
-                  </span>
+                  <div className="flex items-center gap-2.5">
+                    <span className="text-xs font-semibold uppercase tracking-[0.16em] text-[#78806D]">
+                      Pillar C &bull; Applied Practice
+                    </span>
+                    <span className="border border-[#C87549]/40 bg-[#C87549]/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.12em] text-[#C87549]">
+                      Coming Soon
+                    </span>
+                  </div>
                   <Briefcase className="h-5 w-5 text-[#C87549]" aria-hidden="true" />
                 </div>
                 <h3 className="mt-4 font-serif text-2xl font-semibold text-[#20201E]">
                   Industry Capstone Projects
                 </h3>
                 <p className="mt-3 text-base leading-relaxed text-[#3D3D39]">
-                  Practical projects guided by experienced industry professionals,
-                  addressing real-world business operations, financial framing, and
-                  cross-functional problem-solving.
+                  Planned applied capstone projects will enable learners to tackle real-world
+                  business operations, financial framing, and cross-functional problem-solving
+                  under practitioner guidance. Official project specifications and collaborators
+                  will be announced ahead of cohort launches.
                 </p>
               </div>
             </article>
@@ -189,8 +195,9 @@ export function PedagogySection() {
                   Experiential Learning
                 </h3>
                 <p className="mt-3 text-base leading-relaxed text-[#3D3D39]">
-                  Structured case studies, team discussions, stakeholder role-playing,
-                  decision-making exercises, and real-world management scenarios.
+                  Structured case discussions, stakeholder role-playing, team-based negotiation
+                  exercises, and live debriefs designed to translate business and management
+                  concepts into repeatable professional instincts.
                 </p>
               </div>
             </article>

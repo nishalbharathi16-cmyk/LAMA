@@ -67,27 +67,27 @@ export function AboutSection() {
               {/* Industry Gap */}
               <div className="mt-8">
                 <h3 className="font-serif text-2xl font-semibold text-[#20201E]">
-                  Why Managerial Skills Matter for Engineering and MBA Graduates
+                  Bridging Academic Knowledge to Executive Execution
                 </h3>
                 <div className="mt-4 space-y-4 text-base leading-relaxed text-[#3D3D39]">
                   <p>
-                    Universities excel at teaching foundational engineering principles and
-                    theoretical management frameworks. Yet the moment a graduate steps
-                    into a first-time managerial or cross-functional role, the demands
-                    of daily execution change fundamentally.
+                    LAMA &ndash; Leadership &amp; Managerial Skills Academy is an applied
+                    finishing academy established to prepare final-year engineering (B.Tech/B.E.)
+                    and MBA students for the genuine challenges of first-time management.
                   </p>
                   <p>
-                    Instead of isolated assignments with fixed answers, new managers face
-                    ambiguous trade-offs: aligning engineering delivery with commercial
-                    commitments, reading financial statements and operating budgets,
-                    resolving cross-team friction, governing AI-assisted workflows, and
-                    leading calmly when client or product issues arise.
+                    Higher education provides invaluable theoretical foundations, technical
+                    mastery, and strategic frameworks. However, stepping into an organisational
+                    role introduces an immediate shift: problems no longer have single correct
+                    answers, timelines compete with resource constraints, and success depends on
+                    mobilising cross-functional teams rather than individual performance alone.
                   </p>
                   <p>
-                    LAMA &ndash; Leadership &amp; Managerial Skills Academy exists to
-                    close this transition gap before day one on the job&mdash;building
-                    structured operational habits, financial clarity, and executive
-                    communication.
+                    LAMA bridges this transition gap through an intensive, practice-based learning
+                    model. Across three core domains and four complementary learning pillars,
+                    learners master practical decision-making under ambiguity, Profit &amp; Loss
+                    (P&amp;L) literacy, responsible AI-enabled team operations, and composed
+                    stakeholder communication.
                   </p>
                 </div>
               </div>

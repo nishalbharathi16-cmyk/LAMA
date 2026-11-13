@@ -79,8 +79,8 @@ export const ACADEMY_TAGLINE =
 
 export const HERO_INFO_STRIP = [
   'Three core learning domains',
-  'Experiential business simulations',
-  'Industry-informed leadership learning',
+  'Four complementary learning pillars',
+  'Final-year engineering and MBA cohorts',
 ];
 
 export const CURRICULUM_DOMAINS: CurriculumDomain[] = [
@@ -122,7 +122,7 @@ export const CURRICULUM_DOMAINS: CurriculumDomain[] = [
   {
     id: 'domain-02',
     code: 'DOMAIN 02',
-    title: 'Strategic Business Operations & P&L Management',
+    title: 'Strategic Business Operations & Profit & Loss (P&L) Management',
     subtitle: 'Connecting daily execution with financial health and operational discipline',
     summary:
       'Build fluency in financial statements, unit economics, supply chain friction, and enterprise execution frameworks so managerial actions protect margin and momentum.',
@@ -211,26 +211,27 @@ export const PEDAGOGY_ITEMS: PedagogyItem[] = [
     letter: 'A',
     title: 'War Room Simulations',
     description:
-      'Live four-hour simulated business crises where students respond to product failures, operational challenges and PR issues using simulated dashboard information.',
+      'Live four-hour facilitated business crises where students respond to product failures, operational challenges, and PR issues using simulated dashboard information in cross-functional teams.',
   },
   {
     letter: 'B',
     title: 'AI Co-Pilot Coaching',
     description:
-      'Personalised feedback on executive communication, presentation skills, speech pacing and negotiation.',
-    note: 'All audio or video-based analysis is strictly consent-based.',
+      'A planned learning component designed to provide personalised feedback on executive communication, presentation clarity, and structured negotiation.',
+    note: 'All communication analysis is strictly opt-in and consent-based.',
   },
   {
     letter: 'C',
     title: 'Industry Capstone Projects',
     description:
-      'Practical projects guided by experienced industry professionals, addressing real-world business challenges.',
+      'Planned applied projects addressing real-world business operations, financial framing, and cross-functional problem-solving.',
+    note: 'Coming Soon — specific enterprise project briefs will be published ahead of cohort intake.',
   },
   {
     letter: 'D',
     title: 'Experiential Learning',
     description:
-      'Case studies, team discussions, role-playing, decision-making exercises and business scenarios.',
+      'Structured case analyses, collaborative cohort debriefs, stakeholder role-playing, and realistic managerial decision-making exercises.',
   },
 ];
 
@@ -353,12 +354,12 @@ export const ADMISSIONS_DETAILS = [
   {
     label: 'Eligibility',
     value:
-      'Designed for final-year and graduating B.Tech / B.E. Engineering students and MBA students preparing to step into first-time managerial responsibilities. Specific academic eligibility criteria: Coming Soon.',
+      'Designed for final-year and graduating B.Tech / B.E. students and current or graduating MBA students preparing to step into first-time managerial responsibilities. Specific academic eligibility criteria: Coming Soon.',
   },
   {
     label: 'Student Categories',
     value:
-      'Two dedicated tracks tailored to background: Engineering Graduates (translating technical depth into business and team leadership) and MBA Graduates (strengthening operational, financial, AI, and people execution).',
+      'Two dedicated cohort tracks tailored to background: Final-Year & Graduating B.Tech/B.E. Students (translating technical depth into commercial and team leadership) and Current & Graduating MBA Students (strengthening operational execution, financial framing, AI governance, and people leadership).',
   },
   {
     label: 'Programme Structure',

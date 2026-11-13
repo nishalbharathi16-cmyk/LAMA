@@ -36,9 +36,9 @@ export function CurriculumSection() {
         <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
           <Reveal>
             <SectionHeader
-              eyebrow="Programme Curriculum"
+              eyebrow="Three Core Learning Domains"
               title="Develop the Capabilities That Modern Managers Need."
-              description="Three integrated domains uniting AI-powered operational leadership, financial and P&L fluency, and high-trust people management."
+              description="Three integrated learning domains uniting AI-powered operational leadership, financial and Profit & Loss (P&L) fluency, and high-trust people management."
             />
           </Reveal>
 

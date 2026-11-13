@@ -22,7 +22,7 @@ export function HeroSection() {
               </div>
 
               <h1 className="mt-5 font-serif text-4xl font-semibold leading-[1.08] tracking-tight text-[#20201E] sm:text-5xl lg:text-[3.4rem]">
-                From Graduate to First-Time Manager.
+                From Graduate to First-Time Manager
               </h1>
 
               <p className="mt-5 border-l-2 border-[#C87549] pl-4 font-serif text-lg italic leading-relaxed text-[#20201E]/90 sm:text-xl">
@@ -30,8 +30,10 @@ export function HeroSection() {
               </p>
 
               <p className="mt-6 max-w-xl text-base leading-relaxed text-[#3D3D39] sm:text-lg">
-                Move beyond academic knowledge. Develop the confidence, business understanding
-                and leadership capabilities to take your first steps into management.
+                LAMA is an applied finishing academy designed to help final-year engineering
+                and MBA students bridge the gap between academic knowledge and real-world
+                managerial responsibilities through practical learning, business simulations
+                and leadership development.
               </p>
 
               <div className="mt-8 flex flex-col gap-3.5 sm:flex-row sm:items-center">

@@ -54,18 +54,18 @@ const FIELD_INPUT_IDS: Partial<Record<keyof EnquiryFormData, string>> = {
 };
 
 const QUALIFICATIONS = [
-  'Final-Year B.Tech / B.E. Engineering',
-  'Graduating / Recent B.Tech / B.E. Engineering',
+  'Final-Year B.Tech / B.E. Student',
+  'Graduating B.Tech / B.E. Student',
   'Current MBA Student',
-  'Graduating / Recent MBA Graduate',
-  'Other Undergraduate / Postgraduate Degree',
+  'Graduating MBA Student',
+  'Other Degree / Academic Background',
 ];
 
 const GRADUATION_YEARS = ['2025', '2026', '2027', '2028', 'Earlier'];
 
 const PROGRAMME_INTERESTS = [
-  'Engineering Graduates Leadership Track',
-  'MBA Graduates Management Track',
+  'Engineering Students Leadership Pathway',
+  'MBA Students Management Pathway',
   'General Programme & Curriculum Enquiry',
   'Campus / Institutional Collaboration',
 ];

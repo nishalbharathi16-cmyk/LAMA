@@ -35,8 +35,8 @@ export function Footer() {
             >
               <img
                 src="/images/lama-logo.jpg"
-                alt="LAMA – Leadership & Managerial Skills Academy: Learn, Lead, Excel"
-                className="h-20 w-auto max-w-full object-contain"
+                alt="LAMA – Leadership & Managerial Skills Academy"
+                className="h-16 sm:h-20 w-auto max-w-full object-contain"
                 loading="eager"
                 decoding="async"
               />
@@ -46,7 +46,7 @@ export function Footer() {
               {ACADEMY_TAGLINE}
             </p>
             <p className="mt-3 text-xs leading-relaxed text-[#F6F2E9]/65">
-              Preparing final-year and graduating B.Tech/B.E. engineering and MBA
+              Preparing final-year and graduating B.Tech/B.E. engineering students and MBA
               students for first-time managerial responsibilities.
             </p>
           </div>
@@ -89,12 +89,16 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Contact & Social Placeholders */}
+          {/* Contact & Enquiries */}
           <div className="lg:col-span-3">
             <h3 className="font-sans text-xs font-semibold uppercase tracking-[0.18em] text-[#C87549]">
               Connect With LAMA
             </h3>
             <div className="mt-4 space-y-2.5 text-xs leading-relaxed text-[#F6F2E9]/75">
+              <p>
+                <span className="font-semibold text-[#F6F2E9]">Student Enquiries: </span>
+                Submit via the registration form below
+              </p>
               <p>
                 <span className="font-semibold text-[#F6F2E9]">Admissions Email: </span>
                 Coming Soon
@@ -106,15 +110,6 @@ export function Footer() {
               <p>
                 <span className="font-semibold text-[#F6F2E9]">Campus Address: </span>
                 Coming Soon
-              </p>
-            </div>
-
-            <div className="mt-5 border-t border-[#F6F2E9]/12 pt-4">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-[#F6F2E9]/65">
-                Official Social Channels
-              </p>
-              <p className="mt-2 text-xs text-[#F6F2E9]/75">
-                Official LinkedIn and YouTube links: Coming Soon.
               </p>
             </div>
           </div>

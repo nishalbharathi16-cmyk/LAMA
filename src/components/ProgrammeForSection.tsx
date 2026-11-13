@@ -5,33 +5,33 @@ import { Reveal } from './Reveal';
 const TRACKS = [
   {
     id: 'engineering-graduates',
-    title: 'Engineering Graduates',
-    audience: 'Final-Year & Graduating B.Tech / B.E. Students',
+    title: 'Final-Year & Graduating B.Tech / B.E. Students',
+    audience: 'Engineering Leadership Pathway',
     description:
-      'For final-year B.Tech/B.E. students who want to translate technical knowledge into business understanding, operational execution and team leadership.',
+      'Designed for final-year and graduating B.Tech/B.E. students who want to translate deep technical competence into commercial fluency, disciplined operational execution, and cross-functional team leadership.',
     highlights: [
       'Technical-to-executive communication',
-      'P&L, unit economics & operational budgets',
-      'Agile delivery & cross-functional alignment',
+      'Profit & Loss (P&L), unit economics & operating budgets',
+      'Agile delivery cadences & cross-functional alignment',
     ],
     imageSrc: '/images/engineering-graduates.jpg',
     imageAlt: 'Engineering and management students discussing strategy with a faculty facilitator in an interactive workshop room',
-    slotTitle: 'Engineering Graduates Cohort',
+    slotTitle: 'Engineering Cohort',
   },
   {
     id: 'mba-graduates',
-    title: 'MBA Graduates',
-    audience: 'Current & Graduating MBA Students',
+    title: 'Current & Graduating MBA Students',
+    audience: 'Business Management Pathway',
     description:
-      'For MBA students preparing to handle business operations, financial decisions, people management and cross-functional responsibilities.',
+      'Designed for current and graduating MBA students who want to bridge academic business frameworks into practical execution, high-stakes negotiation, crisis control, and people management.',
     highlights: [
-      'AI-powered leadership & governance',
-      'High-stakes negotiation & client dynamics',
+      'AI-powered leadership & governance guardrails',
+      'Principled negotiation & enterprise client dynamics',
       'Crisis response & operational friction control',
     ],
     imageSrc: '/images/mba-graduates.jpg',
     imageAlt: 'Executive trainer guiding an interactive business seminar with presentation slides and participant discussion',
-    slotTitle: 'MBA Graduates Cohort',
+    slotTitle: 'MBA Cohort',
   },
 ];
 
@@ -60,8 +60,8 @@ export function ProgrammeForSection() {
                 allocate capital, and align people under pressure.
               </p>
               <p className="mt-4 text-base leading-relaxed text-[#3D3D39]">
-                LAMA brings both cohorts together so engineers build commercial command
-                and MBA graduates sharpen technical and operational execution.
+                LAMA brings both cohorts together so engineering students build commercial
+                command and MBA students sharpen technical and operational execution.
               </p>
 
               <div className="mt-8">
