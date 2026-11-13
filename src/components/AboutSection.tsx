@@ -1,4 +1,4 @@
-import { AcademyImage } from './AcademyImage';
+import { AcademyVideoPlayer } from './AcademyVideoPlayer';
 import { Reveal } from './Reveal';
 import { SectionHeader } from './SectionHeader';
 
@@ -10,15 +10,16 @@ export function AboutSection() {
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 items-start gap-10 lg:grid-cols-12 lg:gap-14">
-          {/* Photography Column */}
+          {/* Video Showcase Column */}
           <div className="lg:col-span-5">
             <Reveal>
-              <AcademyImage
-                src="/images/classroom-learning.jpg"
-                alt="Academy instructor engaging seated students across seminar tables during a leadership workshop"
-                slotTitle="Classroom Learning & Seminar Discussion"
-                aspectClassName="aspect-[4/4.3]"
-                objectPositionClassName="object-[center_20%]"
+              <AcademyVideoPlayer
+                src="/videos/lama-leadership-training.mp4"
+                posterSrc="/images/classroom-learning.jpg"
+                title="Applied Leadership &amp; Management"
+                subtitle="Watch cohort discussions, decision simulations, and practitioner coaching."
+                badge="Session Footage"
+                aspectClassName="aspect-[4/3.8]"
               />
               <div className="mt-5 border-l-2 border-[#78806D] pl-4">
                 <p className="text-xs font-semibold uppercase tracking-[0.14em] text-[#78806D]">
