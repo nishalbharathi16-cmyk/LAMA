@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 68" width="430" height="68" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&amp;family=Plus+Jakarta+Sans:wght@500;600;700&amp;display=swap');
+      .lama-wordmark {
+        font-family: 'Playfair Display', 'Didot', 'Bodoni MT', 'Cinzel', 'Georgia', serif;
+        font-size: 29px;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        fill: #F2EDE3;
+      }
+      .lama-tagline {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-size: 7.8px;
+        font-weight: 600;
+        letter-spacing: 0.22em;
+        fill: #C8BFB0;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+
+  <!-- Scaled Monogram Mark -->
+  <g transform="translate(0, 1) scale(0.94)">
+    
+    <!-- LAMA Monogram: Architectural L with 3 Ascending Steps -->
+    <g class="lama-monogram" id="lama-monogram-dark">
+      <!-- Vertical Spine (Authority Pillar) -->
+      <path d="M 14 14.5 L 14 63 L 26 63 L 26 14.5 Z" fill="#F2EDE3" />
+      
+      <!-- Crown Capstone on Vertical Spine -->
+      <path d="M 14 10 L 26 10 L 26 13.5 L 14 13.5 Z" fill="#B69A6A" />
+
+      <!-- Horizontal Base Plinth (Foundation Ground) -->
+      <path d="M 14 64 L 67 64 L 67 71 L 14 71 Z" fill="#F2EDE3" />
+
+      <!-- Ascending Architectural Step 1 (Entry / Foundation) -->
+      <path d="M 28.5 47 L 39 47 L 39 63 L 28.5 63 Z" fill="#9AA08F" />
+
+      <!-- Ascending Architectural Step 2 (Managerial Acceleration) -->
+      <path d="M 41.5 35 L 52 35 L 52 63 L 41.5 63 Z" fill="#B96543" />
+
+      <!-- Ascending Architectural Step 3 (Executive Summit) -->
+      <path d="M 54.5 23 L 65 23 L 65 63 L 54.5 63 Z" fill="#B69A6A" />
+    </g>
+    
+  </g>
+
+  <!-- Architectural Hairline Divider -->
+  <line x1="78" y1="14" x2="78" y2="54" stroke="#F2EDE3" stroke-opacity="0.3" stroke-width="1.2" />
+
+  <!-- Brand Typography -->
+  <g transform="translate(94, 0)">
+    <!-- Wordmark LAMA -->
+    <text x="0" y="34" class="lama-wordmark">LAMA</text>
+    
+    <!-- Tagline: LEADERSHIP & MANAGERIAL SKILLS ACADEMY -->
+    <text x="1" y="50" class="lama-tagline">LEADERSHIP &amp; MANAGERIAL SKILLS ACADEMY</text>
+  </g>
+</svg>

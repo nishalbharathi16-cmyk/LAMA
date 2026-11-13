@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Menu, X, ArrowUpRight } from 'lucide-react';
 import { NAV_ITEMS } from '../data/academyData';
+import { LamaLogo } from './LamaLogo';
 
 interface HeaderProps {
   onApplyClick: () => void;
@@ -74,26 +75,10 @@ export function Header({ onApplyClick }: HeaderProps) {
         <a
           href="#home"
           onClick={() => handleNavClick('#home')}
-          className="group flex items-center gap-3 shrink-0"
+          className="group flex items-center shrink-0 transition-opacity hover:opacity-95"
           aria-label="LAMA – Leadership & Managerial Skills Academy Home"
         >
-          <span className="flex h-10 w-10 shrink-0 overflow-hidden border border-[#20201E]/25 bg-[#1B1B19] transition-colors group-hover:border-[#C87549]">
-            <img
-              src="/images/lama-emblem.jpg"
-              alt="LAMA Official Emblem"
-              className="h-full w-full object-cover"
-              loading="eager"
-              decoding="async"
-            />
-          </span>
-          <span className="flex flex-col leading-none">
-            <span className="font-serif text-xl font-semibold tracking-[0.12em] text-[#20201E]">
-              LAMA
-            </span>
-            <span className="hidden sm:block mt-0.5 text-[10px] font-medium uppercase tracking-[0.13em] text-[#78806D]">
-              Leadership &amp; Managerial Skills Academy
-            </span>
-          </span>
+          <LamaLogo variant="horizontal" theme="light" />
         </a>
 
         {/* Desktop Navigation */}

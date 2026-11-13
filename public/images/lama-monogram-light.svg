@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" width="80" height="80" fill="none">
+  
+    <!-- LAMA Monogram: Architectural L with 3 Ascending Steps -->
+    <g class="lama-monogram" id="lama-monogram-light">
+      <!-- Vertical Spine (Authority Pillar) -->
+      <path d="M 14 14.5 L 14 63 L 26 63 L 26 14.5 Z" fill="#252421" />
+      
+      <!-- Crown Capstone on Vertical Spine -->
+      <path d="M 14 10 L 26 10 L 26 13.5 L 14 13.5 Z" fill="#B69A6A" />
+
+      <!-- Horizontal Base Plinth (Foundation Ground) -->
+      <path d="M 14 64 L 67 64 L 67 71 L 14 71 Z" fill="#252421" />
+
+      <!-- Ascending Architectural Step 1 (Entry / Foundation) -->
+      <path d="M 28.5 47 L 39 47 L 39 63 L 28.5 63 Z" fill="#78806D" />
+
+      <!-- Ascending Architectural Step 2 (Managerial Acceleration) -->
+      <path d="M 41.5 35 L 52 35 L 52 63 L 41.5 63 Z" fill="#B96543" />
+
+      <!-- Ascending Architectural Step 3 (Executive Summit) -->
+      <path d="M 54.5 23 L 65 23 L 65 63 L 54.5 63 Z" fill="#B69A6A" />
+    </g>
+    
+</svg>
